@@ -11,6 +11,15 @@ dotenv.config();
 const PORT = process.env.PORT || 5000;
 const server = http.createServer(app.app);
 
+function serverError(err) {
+    if (err.syscall !== "listen") {
+      logger.error("Unexpected error during server startup", err);
+      throw err;
+    }
+    throw new ApiError("Syscall error", StatusCodes.CONFLICT);
+  }
+  
+
 function serverListening() {
     const address = server.address();
     logger.info(`Server listening on http://localhost:${address.port}`);
@@ -21,6 +30,7 @@ async function startServer() {
         await app.start();
         app.app.set('port', PORT);
         
+        server.on('error', serverError);
         server.on('listening', serverListening);
         server.on('error', (error) => {
             if (error.syscall !== 'listen') throw error;
