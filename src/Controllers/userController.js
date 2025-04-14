@@ -1,22 +1,46 @@
-    
-    const BaseController = require('./BaseController');
-    const { Request, Response } = require('express');
-    const { StatusCodes } = require('http-status-codes');
+const BaseController = require('../components/Basecontroller');
+const { StatusCodes } = require('http-status-codes');
 
-    class UserController extends BaseController {
-      routes() {
-        return [
-          {
-            path: '/users',
-            method: 'get',
-            handler: this.getUsers
-          }
-        ];
-      }
+class UserController extends BaseController {
+  constructor() {
+    super();
+        // base path
+        this.basePath = "Users";
+  }
 
-      async getUsers(Request, Response) {
-        const users = await UserService.getAllUsers();
-        res.locals.data = users; // Set data to be encrypted
-        this.send(res); // Use inherited send method
+  routes() {
+    return [
+      {
+        path: '/getUser',
+        method: 'get',
+        handler: this.getUser.bind(this)
       }
+    ];
+  }
+
+  getUser(req, res, next) {
+    try {
+
+      // simulate fetching data from a database
+      const userData = {
+        username: "John Doe",
+        email: "johndoe@gmail.com",
+        address: "123 Main Street"
+      };
+
+      //Attach the data to res.locals
+
+      res.locals.data = userData;
+
+      // send encrypted response using BaseController's send method;
+
+      super.send(res, StatusCodes.OK);
+    } catch (error) {
+      next(error);
     }
+  }
+
+  
+}
+
+module.exports = UserController;

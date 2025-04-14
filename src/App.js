@@ -7,6 +7,7 @@ const swaggerSpec = require("./utils/swagger");
 const swaggerUi = require("swagger-ui-express");
 const dotenv = require("dotenv");
 const logger = require("./lib/logger");
+const { registerUserRoute } = require('./routes');
 const addErrorHandler = require("./middleware/error-handler");
 
 dotenv.config();
@@ -31,6 +32,7 @@ class App {
   routes() {
     this.app.get("/", this.basePathRoute);
     this.app.get("/web", this.parseRequestHeader, this.basePathRoute);
+    this.app.use(registerUserRoute());
   }
   
   middleware() {
