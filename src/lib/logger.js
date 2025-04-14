@@ -10,9 +10,7 @@ try {
   if (!fs.existsSync(logDir)) {
     fs.mkdirSync(logDir, { recursive: true });
     console.log(`Log directory created at ${logDir}`);
-  } else {
-    console.log(`Log directory already exists at ${logDir}`);
-  }
+  } 
 } catch (err) {
   console.error(
     `Failed to create log directory: ${err instanceof Error ? err.message : "Unknown error"}`,

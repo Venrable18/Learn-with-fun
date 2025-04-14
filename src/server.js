@@ -8,16 +8,15 @@ const logger = require("./lib/logger");
 const app = new App();
 dotenv.config();
 
-const PORT = process.env.PORT || 5000;
-const server = http.createServer(app.app);
+const server = http.createServer(app);
 
 function serverError(err) {
     if (err.syscall !== "listen") {
-      logger.error("Unexpected error during server startup", err);
+        logger.error("Unexpected error during server startup", err);
       throw err;
     }
     throw new ApiError("Syscall error", StatusCodes.CONFLICT);
-  }
+}
   
 
 function serverListening() {
@@ -28,8 +27,9 @@ function serverListening() {
 async function startServer() {
     try {
         await app.start();
+        const PORT = process.env.PORT || 5000;
         app.app.set('port', PORT);
-        
+
         server.on('error', serverError);
         server.on('listening', serverListening);
         server.on('error', (error) => {
@@ -45,7 +45,7 @@ async function startServer() {
                     throw error;
             }
         });
-
+        
         server.listen(PORT);
     } catch (error) {
         logger.error('Failed to start server:', error);
