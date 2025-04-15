@@ -7,8 +7,10 @@ const swaggerSpec = require("./utils/swagger");
 const swaggerUi = require("swagger-ui-express");
 const dotenv = require("dotenv");
 const logger = require("./lib/logger");
-const { registerUserRoute } = require('./routes');
 const addErrorHandler = require("./middleware/error-handler");
+const {registerUserRoute} = require('./routes')
+
+
 
 dotenv.config();
 
@@ -16,13 +18,13 @@ class App {
   constructor() {
     this.app = express();
     this.httpServer = http.createServer(this.app);
+    this.middleware();
+    this.routes();
+    this.start();
   }
 
   start() {
-    this.middleware();
-    this.routes();
-    return this;
-    
+    const{NODE_ENV} = process.env;
   if (NODE_ENV && NODE_ENV !== 'production') {  
     this.setupSwaggerDocs();
   }
@@ -32,9 +34,10 @@ class App {
   routes() {
     this.app.get("/", this.basePathRoute);
     this.app.get("/web", this.parseRequestHeader, this.basePathRoute);
-    this.app.use(registerUserRoute());
+    this.app.use('/', registerUserRoute());
   }
-  
+
+ 
   middleware() {
     // Security and parsing middleware
     this.app.use(helmet({ contentSecurityPolicy: false }));
@@ -48,8 +51,7 @@ class App {
       origin: ["http://localhost:8080"],
     };
     this.app.use(cors(corsOptions));
-  }
-
+  };
 
   basePathRoute(request, response) {
     response.json({ message: 'base path' });

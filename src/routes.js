@@ -1,7 +1,7 @@
 const express = require('express');
 const logger = require("./lib/logger");
 const { Router } = require("express");
-const userController = require('./Controllers/userController');
+const homePageController = require('./Controllers/homePageController');
 
 function registerControllerRoutes(routes) {
   const controllerRouter = Router();
@@ -36,20 +36,20 @@ function registerControllerRoutes(routes) {
   return controllerRouter;
 }
 
-
 function registerUserRoute() {
   try {
     const router = Router();
 
     // Define an array of controller objects
-    const userControllers = [new userController()];
+    const controllers = [
+      new homePageController()
+    ];
 
     // Dynamically register routes for each controller
-    userControllers.forEach((userController) => {
-      // Make sure each controller has basePath attribute and routes() method
+    controllers.forEach((controller) => {
       router.use(
-        `/v1/${userController.basePath}`,
-        registerControllerRoutes(userController.routes())
+        `/v1/${controller.basePath}`,
+        registerControllerRoutes(controller.routes())
       );
     });
 

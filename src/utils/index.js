@@ -5,7 +5,7 @@ const { encrypt } = require("../lib/crypto");
  * @returns The original input if encryption is disabled, or an encrypted string if encryption is enabled.
  */
 function getEncryptedText(input) {
-  const APPLY_ENCRYPTION = true;
+  const APPLY_ENCRYPTION = false;
 
   // const APPLY_ENCRYPTION = process.env.APPLY_ENCRYPTION === 'true' || false;
   const { SECRET_KEY } = process.env;
