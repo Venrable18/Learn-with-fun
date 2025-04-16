@@ -1,31 +1,36 @@
 const express = require('express');
 const logger = require("./lib/logger");
 const { Router } = require("express");
-const userController = require('./Controllers/userController');
+const homePageController = require('./Controllers/homePageController');
 
 function registerControllerRoutes(routes) {
   const controllerRouter = Router();
 
   routes.forEach((route) => {
+    // Determine the handlers to use (middleware + handler or just handler)
+    const handlers = route.middleware
+      ? [route.middleware, route.handler]
+      : [route.handler];
+
     switch (route.method) {
       case "get":
-        controllerRouter.get(route.path, route.handler);
+        controllerRouter.get(route.path, ...handlers);
         break;
 
       case "post":
-        controllerRouter.post(route.path, route.handler);
+        controllerRouter.post(route.path, ...handlers);
         break;
 
       case "put":
-        controllerRouter.put(route.path, route.handler);
+        controllerRouter.put(route.path, ...handlers);
         break;
 
       case "patch":
-        controllerRouter.patch(route.path, route.handler);
+        controllerRouter.patch(route.path, ...handlers);
         break;
 
       case "delete":
-        controllerRouter.delete(route.path, route.handler);
+        controllerRouter.delete(route.path, ...handlers);
         break;
 
       default:
@@ -36,20 +41,20 @@ function registerControllerRoutes(routes) {
   return controllerRouter;
 }
 
-
 function registerUserRoute() {
   try {
     const router = Router();
 
     // Define an array of controller objects
-    const userControllers = [new userController()];
+    const controllers = [
+      new homePageController()
+    ];
 
     // Dynamically register routes for each controller
-    userControllers.forEach((userController) => {
-      // Make sure each controller has basePath attribute and routes() method
+    controllers.forEach((controller) => {
       router.use(
-        `/v1/${userController.basePath}`,
-        registerControllerRoutes(userController.routes())
+        `/api/v1/${controller.basePath}`, // Use /api/v1 prefix
+        registerControllerRoutes(controller.routes())
       );
     });
 

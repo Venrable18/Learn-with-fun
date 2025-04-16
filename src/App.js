@@ -3,74 +3,113 @@ const cors = require("cors");
 const helmet = require("helmet");
 const httpStatus = require("http-status-codes");
 const http = require("http");
-const swaggerSpec = require("./utils/swagger");
+const swaggerDocument = require("./utils/swagger");
 const swaggerUi = require("swagger-ui-express");
 const dotenv = require("dotenv");
 const logger = require("./lib/logger");
-const { registerUserRoute } = require('./routes');
 const addErrorHandler = require("./middleware/error-handler");
+const { registerUserRoute } = require('./routes');
 
 dotenv.config();
 
 class App {
   constructor() {
-    this.app = express();
-    this.httpServer = http.createServer(this.app);
+    this.express = express();
+    this.httpServer = http.createServer(this.express);
   }
 
-  start() {
+  async init() {
+    const { NODE_ENV } = process.env;
+
+    // Add all global middleware like cors
     this.middleware();
-    this.routes();
-    return this;
-    
-  if (NODE_ENV && NODE_ENV !== 'production') {  
-    this.setupSwaggerDocs();
-  }
 
+    // Register all routes
+    this.routes();
+
+    // Add the middleware to handle error, make sure to add it after registering routes
+    this.express.use(addErrorHandler);
+
+    // In a development/test environment, Swagger will be enabled
+    if (NODE_ENV && NODE_ENV !== 'prod') {
+      this.setupSwaggerDocs();
+    }
   }
 
   routes() {
-    this.app.get("/", this.basePathRoute);
-    this.app.get("/web", this.parseRequestHeader, this.basePathRoute);
-    this.app.use(registerUserRoute());
+    // Base routes
+    this.express.get("/", this.basePathRoute);
+    this.express.get("/web", this.parseRequestHeader, this.basePathRoute);
+
+    // Use the router from routes.js
+    this.express.use(registerUserRoute());
   }
-  
+
   middleware() {
     // Security and parsing middleware
-    this.app.use(helmet({ contentSecurityPolicy: false }));
-    this.app.use(express.json({ limit: "100mb" }));
-    this.app.use(express.urlencoded({ limit: "100mb", extended: true }));
-    this.app.use(addErrorHandler);
-    
-    
+    this.express.use(helmet({ contentSecurityPolicy: false }));
+    this.express.use(express.json({ limit: "100mb" }));
+    this.express.use(express.urlencoded({ limit: "100mb", extended: true }));
+
     // CORS configuration
     const corsOptions = {
-      origin: ["http://localhost:8080"],
+      origin: [
+        "http://localhost:8080/",
+        "http://example.com/",
+        "http://127.0.0.1:8080",
+      ],
     };
-    this.app.use(cors(corsOptions));
+    this.express.use(cors(corsOptions));
   }
 
-
-  basePathRoute(request, response) {
-    response.json({ message: 'base path' });
+  basePathRoute(req, res) {
+    const domain = `${req.protocol}://${req.get('host')}`;
+    res.json({
+      message: 'Welcome to the Mathematics Learning Platform',
+      status: 'success',
+      links: {
+        documentation: `${domain}/docs`,
+        api: `${domain}/api/v1`,
+        home: `${domain}/api/v1/home`
+      }
+    });
   }
 
-  parseRequestHeader(request, response, next) {
-    // Parse request header logic here
-    next();
-  };
+  parseRequestHeader(req, res, next) {
+    // Parse request header
+    const xInternalAuthorization = req.headers['x-internal-authorization'];
+    const authorization = req.headers['authorization'];
+
+    if (!xInternalAuthorization) {
+      const error = {
+        status: httpStatus.StatusCodes.UNAUTHORIZED,
+        name: 'Internal Token Missing',
+        message: 'Internal authorization token is required'
+      };
+      return next(error);
+    } else if (!authorization) {
+      const error = {
+        status: httpStatus.StatusCodes.UNAUTHORIZED,
+        name: 'External Token Missing',
+        message: 'Authorization token is required'
+      };
+      return next(error);
+    } else {
+      next();
+    }
+  }
 
   setupSwaggerDocs() {
     // Swagger documentation
-    this.app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+    this.express.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
     // Swagger JSON endpoint
-    this.app.get("/swagger.json", (req, res) => {
+    this.express.get("/swagger.json", (req, res) => {
       res.setHeader("Content-Type", "application/json");
-      res.send(swaggerSpec);
+      res.send(swaggerDocument);
     });
 
-    logger.info(`Swagger is running on http://localhost:5000/docs`);
+    logger.info(`Swagger is running on http://localhost:8080/docs`);
   }
 }
 

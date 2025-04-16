@@ -8,7 +8,7 @@ const swaggerOptions = {
       title: "Mathematics Learning Platform",
       version,
       contact: {
-        name: "Venrable18",
+        name: "ONEN VICTOR",
         url: "https://learn-with-fun.com",
         email: "onenvictor@gmail.com",
       },

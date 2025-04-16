@@ -3,21 +3,23 @@ const dotenv = require("dotenv");
 const { StatusCodes } = require("http-status-codes");
 const App = require("./App");
 const logger = require("./lib/logger");
+const ApiError = require('./abstraction/ApiError');
 
 // Initialize app and environment
 const app = new App();
 dotenv.config();
 
-const server = http.createServer(app);
+const server = http.createServer(app.express);
 
 function serverError(err) {
     if (err.syscall !== "listen") {
         logger.error("Unexpected error during server startup", err);
-      throw err;
+        throw err;
     }
-    throw new ApiError("Syscall error", StatusCodes.CONFLICT);
+    // Properly create ApiError with message and status code
+   // throw new ApiError("Server listen error: " + err.message, StatusCodes.CONFLICT);
 }
-  
+
 
 function serverListening() {
     const address = server.address();
@@ -26,46 +28,44 @@ function serverListening() {
 
 async function startServer() {
     try {
-        await app.start();
+        await app.init();
         const PORT = process.env.PORT || 5000;
-        app.app.set('port', PORT);
-
         server.on('error', serverError);
         server.on('listening', serverListening);
-        server.on('error', (error) => {
-            if (error.syscall !== 'listen') throw error;
-            switch (error.code) {
-                case 'EACCES':
-                    logger.error(`Port ${PORT} requires elevated privileges`);
-                    process.exit(1);
-                case 'EADDRINUSE':
-                    logger.error(`Port ${PORT} is already in use`);
-                    process.exit(1);
-                default:
-                    throw error;
-            }
+        server.listen(PORT, () => {
+            logger.info(`Server running on ${PORT}`);
         });
-        
-        server.listen(PORT);
-    } catch (error) {
-        logger.error('Failed to start server:', error);
+    } catch (err) {
+        if (err instanceof Error) {
+          logger.error(err.name);
+          logger.error(err.message);
+          logger.error(err.stack);
+        }
         process.exit(1);
     }
-}
 
-// Handle uncaught exceptions and promise rejections
-process.on('unhandledRejection', (reason) => {
+    // Handle uncaught exceptions and promise rejections
+    process.on('unhandledRejection', (reason) => {
     if (reason instanceof Error) {
         logger.error('Unhandled Promise Rejection:', reason.message);
         logger.error(reason.stack);
     }
-    server.close(() => process.exit(1));
+    if (server && server.listening) {
+        server.close(() => process.exit(1));
+    } else {
+        process.exit(1);
+    }
 });
 
 process.on('uncaughtException', (error) => {
     logger.error('Uncaught Exception:', error.message);
     logger.error(error.stack);
-    server.close(() => process.exit(1));
+    if (server && server.listening) {
+        server.close(() => process.exit(1));
+    } else {
+        process.exit(1);
+    }
 });
 
+};
 startServer();
