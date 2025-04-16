@@ -7,19 +7,19 @@ const ApiError = require('./abstraction/ApiError');
 
 // Initialize app and environment
 const app = new App();
-
 dotenv.config();
 
-const server = http.createServer(app);
+const server = http.createServer(app.express);
 
 function serverError(err) {
     if (err.syscall !== "listen") {
         logger.error("Unexpected error during server startup", err);
-      throw err;
+        throw err;
     }
-    throw new ApiError("Syscall error", StatusCodes.CONFLICT);
+    // Properly create ApiError with message and status code
+   // throw new ApiError("Server listen error: " + err.message, StatusCodes.CONFLICT);
 }
-  
+
 
 function serverListening() {
     const address = server.address();
@@ -28,8 +28,8 @@ function serverListening() {
 
 async function startServer() {
     try {
+        await app.init();
         const PORT = process.env.PORT || 5000;
-        app.app.set('port', PORT);
         server.on('error', serverError);
         server.on('listening', serverListening);
         server.listen(PORT, () => {
@@ -43,7 +43,7 @@ async function startServer() {
         }
         process.exit(1);
     }
-    
+
     // Handle uncaught exceptions and promise rejections
     process.on('unhandledRejection', (reason) => {
     if (reason instanceof Error) {

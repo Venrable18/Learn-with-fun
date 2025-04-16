@@ -534,3 +534,540 @@
 {"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:42:33.008Z"}
 {"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:42:33.017Z"}
 {"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:42:33.018Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:45:42.997Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:45:43.005Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:45:43.006Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:45:44.092Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:45:44.108Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:45:44.109Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:46:00.892Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:46:00.899Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:46:00.900Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:46:03.832Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:46:03.840Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:46:03.840Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:46:05.442Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:46:05.452Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:46:05.453Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:46:08.439Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:46:08.447Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:46:08.448Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:50:29.531Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:50:29.540Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:50:29.541Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:51:45.134Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:51:45.140Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:52:13.201Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:52:13.205Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:53:06.402Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:53:06.406Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:53:07.672Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:53:07.677Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:54:59.534Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:54:59.546Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:54:59.546Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:55:19.165Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:55:19.174Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:55:19.174Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T10:56:10.770Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T10:56:10.777Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T10:56:10.778Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T11:02:34.398Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T11:02:34.416Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T11:02:34.417Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T11:03:28.153Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T11:03:28.164Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T11:03:28.164Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T11:03:29.002Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T11:03:29.011Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T11:03:29.011Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T11:03:31.657Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T11:03:31.668Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T11:03:31.669Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T11:06:55.831Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T11:06:55.842Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T11:06:55.843Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T11:09:48.550Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T11:09:48.557Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T11:09:48.558Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:18:08.748Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:18:08.756Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:18:08.756Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:18:27.540Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:18:27.550Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:18:27.551Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:18:29.167Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:18:29.175Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:18:29.176Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:18:53.007Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:18:53.015Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:18:53.015Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:18:55.542Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:18:55.560Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:18:55.561Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:18:58.444Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:18:58.452Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:18:58.453Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:01.950Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:01.967Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:01.968Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:03.233Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:03.241Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:03.242Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:05.669Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:05.680Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:05.682Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:07.336Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:07.348Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:07.349Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:10.278Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:10.288Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:10.289Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:11.508Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:11.516Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:11.516Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:12.714Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:12.767Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:12.771Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:13.963Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:13.977Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:13.978Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:17.683Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:17.691Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:17.692Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:21.393Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:21.403Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:21.404Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:22.467Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:22.491Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:22.492Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:24.330Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:24.340Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:24.341Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:28.506Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:28.514Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:28.514Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:19:47.700Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:19:47.708Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:19:47.719Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:20:46.185Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:20:46.195Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:20:46.195Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:21:04.559Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:21:04.567Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:21:04.567Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:21:11.792Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:21:11.801Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:21:11.801Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:21:57.705Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:21:57.713Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:21:57.713Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:29:01.088Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:29:01.099Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:29:01.099Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:29:13.104Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:29:13.114Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:29:13.115Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:29:16.728Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:29:16.743Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:29:16.744Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:29:19.615Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:29:19.632Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:29:19.633Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:29:22.313Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:29:22.330Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:29:22.331Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:30:53.143Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:30:53.151Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:30:53.152Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:31:05.435Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:31:05.443Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:31:05.445Z"}
+{"level":"info","message":"Swagger is running on http://localhost:5000/docs","timestamp":"2025-04-15T18:31:11.084Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T18:31:11.092Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T18:31:11.092Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T19:34:03.456Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T19:34:03.467Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T19:34:03.555Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T19:34:04.743Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T19:34:04.751Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T19:34:04.751Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T19:34:07.289Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T19:34:07.296Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T19:34:07.297Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:22:51.952Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T20:22:51.986Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T20:22:51.990Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:23:16.041Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T20:23:16.089Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T20:23:16.119Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:23:30.977Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T20:23:31.035Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T20:23:31.037Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:23:43.110Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T20:23:43.123Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T20:23:43.124Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:32:54.744Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T20:32:54.758Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T20:32:54.759Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:36:01.689Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T20:36:01.698Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T20:36:01.698Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:36:01.835Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:36:01.929Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:37:39.476Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T20:37:39.493Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T20:37:39.494Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:46:03.359Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-15T20:46:03.400Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-15T20:46:03.404Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:46:03.472Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-15T20:46:03.569Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T07:53:26.847Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T07:53:26.858Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T07:53:26.859Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T07:53:54.875Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T07:53:54.882Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T07:53:54.883Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T08:09:15.666Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T08:09:15.682Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T08:09:15.682Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T08:16:58.209Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T08:16:58.225Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T08:16:58.225Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T08:17:16.799Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T08:17:16.809Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T08:17:16.810Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T08:28:00.084Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T08:28:00.082Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T08:28:00.093Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T08:28:00.095Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:08:12.571Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T09:08:12.580Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T09:08:12.580Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:08:12.577Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:08:45.882Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T09:08:45.897Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T09:08:45.897Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:08:45.984Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:10:11.876Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:10:11.874Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T09:10:11.882Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T09:10:11.883Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:10:13.988Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T09:10:13.999Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T09:10:13.999Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:10:14.095Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:10:15.299Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T09:10:15.314Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T09:10:15.315Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:10:15.591Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:10:37.025Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T09:10:37.033Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T09:10:37.034Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:10:37.370Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:10:38.986Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T09:10:38.997Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T09:10:38.998Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:10:39.035Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:57:09.684Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T09:57:09.663Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T09:57:09.686Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T09:57:09.686Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:01:39.579Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:01:39.587Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:01:39.587Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:01:39.583Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:03:01.976Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:03:01.989Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:03:01.989Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:03:01.988Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:05:19.778Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:05:19.785Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:05:19.785Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:06:31.734Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:06:31.742Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:06:31.742Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:06:31.766Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:06:40.879Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:06:40.878Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:06:41.000Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:06:41.008Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:06:42.624Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:06:42.632Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:06:42.633Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:06:42.907Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:07:12.297Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:07:12.429Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:07:12.429Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:07:12.750Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:07:15.746Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:07:15.757Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:07:15.757Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:07:15.762Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:09:06.525Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:09:06.532Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:09:06.533Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:09:06.561Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:09:10.135Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:09:10.142Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:09:10.142Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:09:10.142Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:09:12.920Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:09:13.159Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:09:13.160Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:09:13.250Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:22:56.367Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:22:56.374Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:22:56.375Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:22:56.430Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:23:54.349Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:23:54.358Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:23:54.359Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:23:54.437Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:23:55.787Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:23:55.796Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:23:55.796Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:23:55.922Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:23:58.926Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:23:58.942Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:23:58.943Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:23:58.960Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:24:15.672Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:24:15.680Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:24:15.681Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:24:16.102Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:24:21.933Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:24:21.940Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:24:21.941Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:24:21.963Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:30:32.506Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:30:32.514Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:30:32.514Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:30:32.614Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:32:39.593Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:32:39.606Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:32:39.606Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:32:40.039Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:32:52.190Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:32:52.231Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:32:52.232Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:32:52.359Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T10:33:36.197Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T10:33:36.207Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T10:33:36.208Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:11:53.585Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:15:48.837Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:15:48.853Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:15:48.854Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:15:49.152Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:15:50.677Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:15:50.690Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:15:50.690Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:15:50.984Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:15:52.561Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:15:52.582Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:15:52.583Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:15:52.760Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:15:56.128Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:15:56.237Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:15:56.238Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:15:56.257Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:28.410Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:16:28.459Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:16:28.463Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:28.413Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:42.200Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:16:42.209Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:16:42.210Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:42.306Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:43.357Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:16:43.368Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:16:43.368Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:43.555Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:47.834Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:16:47.842Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:16:47.842Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:47.865Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:49.578Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:16:49.586Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:16:49.587Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:49.861Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:53.134Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:52.923Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:16:52.950Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:16:52.951Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:55.647Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:16:55.656Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:16:55.656Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:16:55.674Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:17:29.395Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:17:29.409Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:17:29.411Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:18:29.967Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:18:30.051Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:18:30.052Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:18:30.395Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:18:34.886Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:18:34.916Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:18:34.916Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:18:35.152Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:18:36.678Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:18:36.698Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:18:36.698Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:18:36.927Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:18:39.055Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:18:39.124Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:18:39.127Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:18:39.376Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:18:43.968Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:18:43.975Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:18:43.976Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:18:44.217Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:19:00.845Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:19:00.852Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:19:00.853Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:19:00.854Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:19:03.244Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:19:03.251Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:19:03.252Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:19:03.288Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:19:57.346Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:19:57.472Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:19:57.474Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:19:57.678Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:20:04.633Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:20:04.641Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:20:04.642Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:20:04.681Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:20:07.673Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:20:07.680Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:20:07.680Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:20:07.716Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:22:13.468Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:22:13.491Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:22:13.491Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:22:13.484Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:33:29.940Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:33:29.939Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:33:29.947Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:33:29.948Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:33:31.825Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:33:31.836Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:33:31.837Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:33:31.958Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:33:33.702Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:33:33.710Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:33:33.710Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:33:33.863Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:38:14.012Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:38:14.022Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:38:14.022Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:38:14.077Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:39:50.524Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:39:50.531Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:39:50.532Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:39:50.550Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:40:11.104Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:40:11.111Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:40:11.112Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:40:11.107Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:40:14.038Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:40:14.045Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:40:14.046Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:40:14.107Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:42:04.481Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:42:04.496Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:42:04.497Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:42:04.855Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:42:26.282Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:42:26.284Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:42:26.298Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:42:26.301Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:42:39.398Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:42:39.454Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:42:39.409Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:42:39.411Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:42:59.304Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:42:59.312Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:42:59.314Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:42:59.587Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:43:57.626Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:43:57.635Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:43:57.636Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:43:57.720Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:44:45.511Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:44:45.560Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:44:45.563Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:45:19.175Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T11:45:19.185Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T11:45:19.186Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T11:45:19.548Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:05:02.368Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:05:02.377Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:05:02.377Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:05:02.582Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:15:33.022Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:15:33.025Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:15:33.038Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:15:33.038Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:15:40.434Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:15:40.441Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:15:40.442Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:15:40.588Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:15:43.015Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:15:43.022Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:15:43.023Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:15:43.129Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:15:45.803Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:15:45.810Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:15:45.811Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:15:45.809Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:15:55.799Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:15:56.042Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:15:56.043Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:15:56.106Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:24.452Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:16:24.459Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:16:24.460Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:24.572Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:27.524Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:16:27.531Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:16:27.532Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:27.583Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:28.922Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:16:28.929Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:16:28.929Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:28.991Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:31.443Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:16:31.452Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:16:31.453Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:31.815Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:36.988Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:16:36.995Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:16:36.996Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:37.064Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:48.999Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:16:49.025Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:16:49.025Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:49.027Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:53.720Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:16:53.728Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:16:53.729Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:16:54.113Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:22:03.590Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:22:03.589Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:22:03.596Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:22:03.597Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:22:09.791Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:22:09.799Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:22:09.799Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:22:09.798Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:22:17.890Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:22:17.898Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:22:17.899Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:22:17.910Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:22:22.117Z"}
+{"level":"info","message":"Server listening on http://localhost:5000","timestamp":"2025-04-16T12:22:22.126Z"}
+{"level":"info","message":"Server running on 5000","timestamp":"2025-04-16T12:22:22.127Z"}
+{"level":"info","message":"Swagger is running on http://localhost:8080/docs","timestamp":"2025-04-16T12:22:22.338Z"}

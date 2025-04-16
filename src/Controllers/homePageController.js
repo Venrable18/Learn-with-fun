@@ -1,5 +1,7 @@
 const BaseController = require('../components/Basecontroller');
 const { StatusCodes } = require('http-status-codes');
+const logger = require('../lib/logger');
+
 
 class HomePageController extends BaseController {
   constructor() {
@@ -13,25 +15,61 @@ class HomePageController extends BaseController {
         path: '/',
         method: 'get',
         handler: this.getHomePage.bind(this)
+      },
+      {
+        path: '/decrypt-example',
+        method: 'post',
+        handler: this.decryptExample.bind(this)
       }
     ];
   }
 
-  getHomePage(req, res, next) {
+  getHomePage(req, res) {
     try {
-      const homePageData = {
-        message: 'Welcome to the Home Page!',
-        version: '1.0.0',
-        description: 'This is the homepage of the application.'
+      // Set the data in res.locals.data for encryption
+      res.locals.data = {
+        message: 'Welcome to the Mathematics Learning Platform',
+        status: 'success',
+      };
+      // Use the BaseController's send method to handle encryption
+      this.send(res, StatusCodes.OK);
+    } catch (error) {
+      logger.error(error);
+      res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
+        message: 'An error occurred',
+        status: 'error'
+      });
+    }
+  }
+
+  /**
+   * Example endpoint that demonstrates decryption of request data
+   * @param {Object} req - Express request object
+   * @param {Object} res - Express response object
+   */
+  decryptExample(req, res) {
+    try {
+      // Decrypt the request data
+      const decryptedData = this.decryptRequestData(req);
+
+      // Log the decrypted data
+      console.log('Decrypted data:', decryptedData);
+
+      // Prepare response data
+      res.locals.data = {
+        message: 'Data successfully decrypted',
+        status: 'success',
+        receivedData: decryptedData
       };
 
-      // Attach data to res.locals
-      res.locals.data = homePageData;
-
-      // Send response using BaseController's send method
-      super.send(res, StatusCodes.OK);
+      // Send encrypted response
+      this.send(res, StatusCodes.OK);
     } catch (error) {
-      next(error);
+      logger.error(error);
+      res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
+        message: 'An error occurred while decrypting data',
+        status: 'error'
+      });
     }
   }
 }

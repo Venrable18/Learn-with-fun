@@ -89,7 +89,15 @@ function decrypt(data, secretKey) {
   decryptedBuffer = Buffer.concat([decryptedBuffer, decipher.final()]);
 
   // Convert the final decrypted Buffer to a string
-  return decryptedBuffer.toString(outputEncoding);
+ const decryptedText = decryptedBuffer.toString(outputEncoding);
+
+ //parsing as JSON if possible
+ try {
+  return JSON.parse(decryptedText);
+ } catch (e) {
+  return decryptedText;
+ }
+
 }
 
 module.exports = { encrypt, decrypt };

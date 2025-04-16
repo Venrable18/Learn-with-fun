@@ -1,5 +1,5 @@
 const { StatusCodes } = require("http-status-codes");
-const getEncryptedText = require("../utils/index");
+const { getEncryptedText, decodeEncryptedText } = require("../utils/index");
 
 /**
  * Base controller
@@ -21,6 +21,28 @@ class BaseController {
       res
         .status(StatusCodes.INTERNAL_SERVER_ERROR)
         .send({ message: "Error encrypting data", error });
+    }
+  }
+
+  /**
+   * Decrypts the request data
+   * @param {Object} req - Express request object
+   * @returns {Object} - The decrypted data
+   */
+  decryptRequestData(req) {
+    try {
+      // Check if there's encrypted data in the request body
+      if (req.body && req.body.data) {
+        // Decrypt the data
+        const decryptedData = decodeEncryptedText(req.body.data);
+        // Replace the encrypted data with the decrypted data
+        req.body = decryptedData;
+      }
+      return req.body;
+    } catch (error) {
+      console.error('Error decrypting request data:', error.message);
+      // Return the original body if decryption fails
+      return req.body;
     }
   }
 }

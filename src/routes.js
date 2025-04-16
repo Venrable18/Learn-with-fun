@@ -7,25 +7,30 @@ function registerControllerRoutes(routes) {
   const controllerRouter = Router();
 
   routes.forEach((route) => {
+    // Determine the handlers to use (middleware + handler or just handler)
+    const handlers = route.middleware
+      ? [route.middleware, route.handler]
+      : [route.handler];
+
     switch (route.method) {
       case "get":
-        controllerRouter.get(route.path, route.handler);
+        controllerRouter.get(route.path, ...handlers);
         break;
 
       case "post":
-        controllerRouter.post(route.path, route.handler);
+        controllerRouter.post(route.path, ...handlers);
         break;
 
       case "put":
-        controllerRouter.put(route.path, route.handler);
+        controllerRouter.put(route.path, ...handlers);
         break;
 
       case "patch":
-        controllerRouter.patch(route.path, route.handler);
+        controllerRouter.patch(route.path, ...handlers);
         break;
 
       case "delete":
-        controllerRouter.delete(route.path, route.handler);
+        controllerRouter.delete(route.path, ...handlers);
         break;
 
       default:
@@ -48,7 +53,7 @@ function registerUserRoute() {
     // Dynamically register routes for each controller
     controllers.forEach((controller) => {
       router.use(
-        `/v1/${controller.basePath}`,
+        `/api/v1/${controller.basePath}`, // Use /api/v1 prefix
         registerControllerRoutes(controller.routes())
       );
     });
